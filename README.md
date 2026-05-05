@@ -1,8 +1,8 @@
-ToDo-LiST-Drive 
+## ToDo-LiST-Drive 
 
 Welcome to ToDo-LiST-Drive, a simple yet powerful cloud-based task management application. This project is designed to help users organize their daily tasks efficiently with the benefit of cloud accessibility.
 
- Features
+## Features
  
 Cloud Storage: Your tasks are saved in the cloud, ensuring you can access them from any device.
 
@@ -12,13 +12,13 @@ Clean UI: A minimalist and user-friendly interface for a distraction-free experi
 
 Fully Responsive: Optimized for use on both mobile devices and desktops.
 
-Technology Stack
+## Technology Stack
 
 Frontend: HTML5, CSS3, JavaScript.
 
 Deployment: GitHub Pages.
 
-How to Use
+## How to Use
 Clone the Repository:
 
 Bash
