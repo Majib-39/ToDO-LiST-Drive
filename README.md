@@ -18,14 +18,22 @@ Frontend: HTML5, CSS3, JavaScript.
 
 Deployment: GitHub Pages.
 
-## How to Use
-Clone the Repository:
+## How to Use (Docker-only)
+1. Clone the repository:
 
-Bash
+```bash
 git clone https://github.com/Majib-39/ToDo-LiST-Drive.git
+cd ToDO-LiST-Drive
+```
 
-2.  **Open the Project:** Simply open the `index.html` file in your preferred web browser.
-3.  **Start Tracking:** Begin adding your tasks to the list!
+2. Build the Docker image and run the container (bind port 3000):
+
+```bash
+docker build -t todolist-drive .
+docker run --rm -p 3000:3000 todolist-drive
+```
+
+3. Open the app in your browser at http://localhost:3000. Use the Upload panel to add any file. Files are stored in the `uploads/` folder inside the container and served from `/uploads`.
 
 ##  Project Status
 This project is currently undergoing more development. Future updates may include user authentication and category-based task filtering.
